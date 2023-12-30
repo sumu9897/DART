@@ -1,42 +1,19 @@
 void main(){
+
+  const city= ['Dhaka', 'Comilla', 'Rajshai'];
+
+  //print(city);
+
+  // city.add("Khulna");
+  // city.add("Barishal");
+  print(city);
+
+  var numbers = [1 ,2 ,3 , 4, 5,6];
+
+  //numbers.add(7);
+  //numbers.addAll([7,8,9,10]);
+  //numbers.insert(3, 100);
+  //numbers.insertAll(3,[100,200,300,400]);
   
-  print("Hello World!");
-
-  // This is Single Line Comment
-
-  /*
-
-  This is Multiple line Comment
-  By "Mohammad Sumon"
-   */
-
-  // var x= 10;
-  // var y= 40;
-  // var z = x+y;
-  // print(x);
-  // print(y);
-  // print(z);
-  //Dart List
-  var city=["Dhaka","Khulna", "Chitagong", "Rajshahi",12, 10, 26.1 , false, true];
-
-  print(city[7]);
-
-  var student = {
-    'name': 'Mohammad',
-    'age': 24,
-    'Group' :'Science',
-    'City' :'Dhaka',
-    'Hometown' :' Bhola',
-  };
-  print(student['Group']);
-
-  // 'key' : 'value'
-  // 'name' : 'mohammad'
-
-var result= city.isNotEmpty;
-
-  print(result);
-
-
-  
+  print(numbers);
 }

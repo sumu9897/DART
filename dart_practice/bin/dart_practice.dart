@@ -28,10 +28,14 @@ void main(){
     'City' :'Dhaka',
     'Hometown' :' Bhola',
   };
-  print(student['City']);
+  print(student['Group']);
 
   // 'key' : 'value'
   // 'name' : 'mohammad'
+
+var result= city.isNotEmpty;
+
+  print(result);
 
 
   

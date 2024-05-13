@@ -1,8 +1,11 @@
-import 'package:dart_practice/dart_practice.dart';
-import 'package:test/test.dart';
+void main(){
 
-void main() {
-  test('calculate', () {
-    expect(calculate(), 42);
-  });
+  var a=10;
+  var b=3;
+
+  print (a+b);
+  print(a-b);
+  print(a*b);
+  print(a/b);
+  print(a%b);
 }

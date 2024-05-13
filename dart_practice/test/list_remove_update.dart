@@ -8,6 +8,7 @@ void main(){
 
   numbers.removeLast();
   numbers.removeAt(2);
+  numbers.remove(8);
 
 
 

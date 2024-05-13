@@ -7,6 +7,7 @@ void main(){
   numbers[4]=500;
 
   numbers.removeLast();
+  numbers.removeAt(2);
 
 
 

@@ -4,7 +4,7 @@ class Computer{
   String year;
   String processor;
   int ramInGB;
-  String macAddress;
+  final String macAddress;
 
   Computer(
       this.companyName,
@@ -16,6 +16,6 @@ class Computer{
       );
 
   String getDetails(){
-    return 'Company name : $companyName\nModel : $ model';
+    return 'Company name : $companyName\nModel : $model';
   }
 }
